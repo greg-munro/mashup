@@ -1,7 +1,21 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import NavBar from "../components/NavBar";
+import axios from "axios";
 
 const Home = () => {
+  const [home, setHome] = useState();
+
+  /*
+ 
+ useEffect( () => {
+    axios.get('').then((response) =>{
+      setHome(response.data)
+    }
+    ).catch(console.log('error'))
+  }, []) 
+  
+  */
+
   return (
     <div>
       <NavBar />
