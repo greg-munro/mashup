@@ -32,9 +32,10 @@ const Home = (app) => {
           <p class="lead">
             Overview of sales performance and figures in USA during 2020 - 2021.
           </p>
-         
         </div>
       </div>
+
+     
     </div>
   );
 };

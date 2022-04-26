@@ -93,8 +93,8 @@ function App() {
         </BrowserRouter>
 
         <QlikObject
-          objectId="eNxKep"
-          elementId="eNxKep"
+          objectId="sKEpw"
+          elementId="sKEpw"
           style={{ height: "300px" }}
           qlikApp={App}
         ></QlikObject>
