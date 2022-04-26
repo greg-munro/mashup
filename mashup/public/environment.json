@@ -1,0 +1,7 @@
+{
+  "qlikHost": "ec2-3-92-185-52.compute-1.amazonaws.com",
+  "qlikVirtualProxy": "/anon",
+  "qlikPort": 443,
+  "qlikProtocol": "https",
+  "App": "dcde8122-0c49-4cea-a935-d30145015cd6"
+}

@@ -7,7 +7,12 @@ const NavBar = () => {
       <nav className="navbar navbar-light bg-dark">
         <div className="d-flex flex-row">
           <Link to="/" className="badge badge-dark">
-          <img className="wholefoods-logo" src={require("../Images/download.png")} alt={"apple"} height="15px"/>
+            <img
+              className="wholefoods-logo"
+              src={require("../Images/download.png")}
+              alt={"apple"}
+              height="15px"
+            />
           </Link>
           <Link to="/top-products" className="badge badge-dark">
             Top Products
@@ -17,8 +22,6 @@ const NavBar = () => {
           </Link>
         </div>
       </nav>
-
-      
     </div>
   );
 };
