@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import NavBar from "../components/NavBar";
-//import axios from "axios";
+import QlikObject from "../components/qlikObject";
 
-const Home = () => {
+const Home = (app) => {
   const [home, setHome] = useState();
 
   /*
@@ -32,10 +32,9 @@ const Home = () => {
           <p class="lead">
             Overview of sales performance and figures in USA during 2020 - 2021.
           </p>
+         
         </div>
       </div>
-
-    
     </div>
   );
 };
