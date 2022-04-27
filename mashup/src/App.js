@@ -177,22 +177,26 @@ function App() {
               />
 
               <div class="container-fluid">
-                <h1 class="mb-3 font-weight-bold">Performance Overview</h1>
+                <h1 class="mb-1 font-weight-bold">Performance Overview</h1>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
                   porttitor leo nec ligula viverra, quis facilisis nunc
                   vehicula. Maecenas purus orci, efficitur in dapibus vel,
                   rutrum in massa. Sed auctor urna sit amet eros mattis
                   interdum. Integer imperdiet ante in quam lacinia, a laoreet
-                  risus imperdiet. Ut a blandit elit, vitae volutpat nunc. Nam
-                  posuere urna sagittis lectus eleifend viverra. Quisque mauris
-                  nunc, viverra vitae sodales non, auctor in diam. Sed dignissim
-                  pulvinar sapien sed fermentum.
+                  risus imperdiet. 
                 </p>
               </div>
               <QlikObject
                 objectId="sKEpw"
                 elementId="sKEpw"
+                style={{ height: "300px" }}
+                qlikApp={App}
+              ></QlikObject>
+
+              <QlikObject
+                objectId="eNxKep"
+                elementId="eNxKep"
                 style={{ height: "300px" }}
                 qlikApp={App}
               ></QlikObject>
