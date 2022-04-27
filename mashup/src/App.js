@@ -184,7 +184,7 @@ function App() {
                   vehicula. Maecenas purus orci, efficitur in dapibus vel,
                   rutrum in massa. Sed auctor urna sit amet eros mattis
                   interdum. Integer imperdiet ante in quam lacinia, a laoreet
-                  risus imperdiet. 
+                  risus imperdiet.
                 </p>
               </div>
               <QlikObject
